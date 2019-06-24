@@ -1,6 +1,6 @@
 body {
-    background-image: linear-gradient(to right, #434343 0%, black 100%);
-  }
+    background: purple;
+    }
   .icons {
     position: absolute;
     top: 0;
@@ -70,7 +70,48 @@ body {
               transform: rotate(359deg);
     }
   }
-  fa fa-square-o {
+  .fa-square-o {
+    color: pink;
+  }
+  .fa-circle-o {
     color: red;
   }
-  
+  .fa-times {
+    color: lightblue;
+    font-weight: 100;
+  }
+
+  .form-wrapper {
+     margin-top: 20vh;
+     border: 2px solid greenyellow;
+     padding : 30px;
+     border-radius: 30px;
+     background: rgba(0,0,0,0.5)
+  }
+
+  label{
+      color: white;
+  }
+
+  input{
+      background: none !important;
+      border: 2px solid greenyellow !important;
+      color: greenyellow !important;
+  }
+
+  input::placeholder{
+    color: greenyellow !important;
+}
+
+  button{
+    background: white !important; 
+    color: purple !important; 
+    border: 4px solid purple !important; 
+    border-radius: 25px !important;
+  }
+
+h4{
+    text-align: center; 
+    color: white;
+    padding: 20px;
+}
